@@ -1,0 +1,9 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2",CAPCP6032X280N,2,C_Polarized,2312
+J1-TOMDV1,PinHeader_1x07_P2.54mm_Vertical,1,Conn_01x07_Pin,
+J2,PinHeader_1x01_P2.54mm_Vertical,1,Conn_01x01,
+J2-TOQL1,PinHeader_1x07_P2.54mm_Vertical,1,Conn_01x07_Socket,
+"R1, R2",0805,2,10K,CRG0805-R-103JT 
+U1,SOIC-14_3.9x8.7mm_P1.27mm,1,74HCT04,C513511
+U2,SOIC-14_3.9x8.7mm_P1.27mm,1,74LS125,C3754826
+U3,SOT-89-3,1,AMS1117-5.0,C880753
