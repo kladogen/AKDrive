@@ -25,8 +25,7 @@ Software Version Changes and improvements
 //           for the target board.
 //           Version 1: the fist board with the 74ls125 chip
 //           Version 2: the second version with the BAT43 diodes.
-// 23.11.2 : Added (c) notice and the ability to show the name of the user the firmware is 
-//           sent to.
+// 23.11.2 : Added (c) notice.
 //           Also added the Default Drive Offset selection in settings. This is usefull when
 //           the number of hardware drive on the QL are more or less than 2.
 //           Added the board version in txt configuration file named BoardVersion.txt. In this way
