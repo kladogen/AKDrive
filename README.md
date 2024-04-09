@@ -8,6 +8,9 @@ All images are optimized by the emulator to load with maximum speed.
 
 Four buttons are available (previous, next, enter, back) to navigate the menu and an OLED screen to display the menu.
 The board design is available to download and also the UDF to program the pico. In order to avoid people selling this project on ebay I will provide one license key to any one that will request it. When you use it for the first time, a file named SerNum.txt will be created in the SD card. You just send me this number and I will reply with the key that you will place in a file named lic.txt.
+
+In folder PCB_42 you will find the KiCad files of the PCB rev4.2. In folder QL_MDV_Control you will find the KiCad files for the boards used to control the hardware microdrives.
+
 Enjoy!
 
 Youtube video : https://www.youtube.com/watch?v=eIUnk80rTSo (Greek)
