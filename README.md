@@ -11,3 +11,5 @@ The board design is available to download and also the UDF to program the pico. 
 Enjoy!
 
 Youtube video : https://www.youtube.com/watch?v=eIUnk80rTSo (Greek)
+
+I specialy want to thank for their help Nikos Doukas, Petar Pandurov and Anestis Koutsoudis who designed the box!
