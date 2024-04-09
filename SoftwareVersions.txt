@@ -1,0 +1,55 @@
+Software Version Changes and improvements
+// 23.10.1 : Initial version
+// 23.10.2 : Changed the OLED library and added support for multiple OLED types and chips. 
+//           Added the OLED.cfg in the SD so the user can modify the OLED display size. 
+//           The chip is detected automaticaly by the library.
+//           Beware : non-void functions that don't return something CRASH!!!
+// 23.10.3 : Changed SaveSectorDataRecordToMDV to store sector data in the .omd file when 
+//           TurboModeOn. Otherwise save does not work since it saves to .mdv sectors and 
+//           reads from .omd sectors. Also the .mdv is destroyed because the sectors used
+//           different!
+//           The .OMD files, in order to remain optimized need to be re-optimized every 
+//           time data is written in them, however since the QL does not maintain a
+//           timestamp on files this needs to managed by the AK-Drive. One solution is to
+//           maintain a list of modified files and re-optimize them at startup and the other
+//           is to reoptimize them anyway at startup. This can be done by deleting the .mdv
+//           files, renaming the .omd to mdv and then proceeding with startup.
+// 23.10.4 : Changed connection of data lines to the QL. Instead of using the 74LS125 buffer
+//           we are now using 2 BAT43 diodes and having the lines pulled up when at input
+//           state (QL sending data) and as high power (8mA) outputs when sending data to
+//           the QL (QL receiving data).
+//           Also the SD card is directly connected to the pico without the extra board.
+// 23.11.1 : Added support for both the old and new board. Also added a "selection efect"
+//           when the user makes a selection in a menu.
+//           The BOARD_VERSION define is used to compile the correct version of the firmware
+//           for the target board.
+//           Version 1: the fist board with the 74ls125 chip
+//           Version 2: the second version with the BAT43 diodes.
+// 23.11.2 : Added (c) notice and the ability to show the name of the user the firmware is 
+//           sent to.
+//           Also added the Default Drive Offset selection in settings. This is usefull when
+//           the number of hardware drive on the QL are more or less than 2.
+//           Added the board version in txt configuration file named BoardVersion.txt. In this way
+//           the same pico can be used with old an new boards by just changing the configuration 
+//           in the file. The default board version is in the BOARD_VERSION define. Eventually it
+//           needs to be changed to 2 when new boards get picos.
+// 23.11.3 : Fixed bug the prohibited writing to AK-Drive when turbo mode was selected.
+//           Changed button press timings so menu and file selection is faster.
+//           Added the avility to break out of the menu if the drive is used from the QL
+//           Added autoload of the first image found when the user changes the used images from the
+//           QL via the runme application. Aslo fixed bug that made AK-Drive show instead of mdv8_
+//           contents the previously loaded mdv.
+// 23.11.4 : Added dynamic finding of MDVIMAGES file first sector. Added check for corruption of AK-Drive
+//           image and message to the user.
+// 23.12.1 : Fixed bug that did not delete old OMD files when an existing MDV was formated.
+//           Also added a file in the formated MDV mentioning AKDrive to make happy Minerva with ToolKitII
+//           since otherwise ToolkitII did not show the formated MDV.
+// 24.01.1 : Changed default BoardVersion to 2
+//           Added support for Hardware Microdrives control (mdv_control board). 
+//           This is done through an addon board in the QL. Each hardware microdrive is connected through 
+//           this addon board that is controlled from the AK-Drive.
+//           The board enables the hardware drive by connecting through a bus driver the Clock, CommsIn and CommsOut
+//           of the microdrive to the QL bus. 
+//           If the drive is disabled CommsIN is directly connected to CommsOut and the microdrive's Clock, CommsIn and
+//           CommsOut disconnected from the bus.
+// 24.02.2 : Added support for small screen 128x32. Fixed bug in menu selection when going to previous page.
