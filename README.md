@@ -18,4 +18,6 @@ Enjoy!
 
 Youtube video : https://www.youtube.com/watch?v=eIUnk80rTSo (Greek)
 
-I specialy want to thank for their help Nikos Doukas, Petar Pandurov and Anestis Koutsoudis who designed the box!
+Enclosure : https://www.thingiverse.com/thing:6572931
+
+I specialy want to thank for their help Nikos Doukas, Petar Pandurov and Anestis Koutsoudis who designed the enclosure!
