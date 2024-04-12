@@ -1,6 +1,9 @@
 # AKDrive
-Sinclair QL Microdrive Emulator
-This an external microdrive emulator for the sinclair QL. It utilizes a raspberry pico to do the emulation and an SD card to hold the images. It has the ability to enable or disable the hardware microdrives with the addition to the QL of two small boards between the QL and the hardware microdrives that are controlled from the emulator. In this way you get to keep your hardware microdrives and use them whenever needed. The emulator can read from MDV images, write to them, format them and also create new formated MDVs.
+<b>Sinclair QL Microdrive Emulator</b>
+
+This an external microdrive emulator for the sinclair QL. It utilizes a raspberry pico to do the emulation and an SD card to hold the images. It has the ability to enable or disable the hardware microdrives with the addition to the QL of two small boards between the QL and the hardware microdrives that are controlled from the emulator. In this way you get to keep your hardware microdrives and use them whenever needed. 
+
+<b>The emulator can read from MDV images, write to them, format them and also create new formated MDVs<\b>.
 
 Also, a QL Basic application is available in mdv8_ that can be used to select directly from the QL the image to load in each drive (mdv1_ to mdv7_).
 
