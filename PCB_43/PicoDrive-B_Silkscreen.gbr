@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.8*%
-%TF.CreationDate,2023-11-12T18:19:46+02:00*%
+%TF.CreationDate,2024-04-12T09:27:46+03:00*%
 %TF.ProjectId,PicoDrive,5069636f-4472-4697-9665-2e6b69636164,rev?*%
 %TF.SameCoordinates,PX55854f8PY4548d10*%
-%TF.FileFunction,Paste,Bot*%
+%TF.FileFunction,Legend,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.8) date 2023-11-12 18:19:46*
+G04 Created by KiCad (PCBNEW 7.0.8) date 2024-04-12 09:27:46*
 %MOMM*%
 %LPD*%
 G01*
